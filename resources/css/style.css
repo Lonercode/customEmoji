@@ -1,0 +1,62 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    font-size: 2vw;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(255,255,255,0.4)), url('../images/smileys.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    overflow:hidden;
+    
+}
+
+.bwody {
+    margin-top:30vh;
+    color: white;
+}
+
+input {
+    width: 30vw;
+    height: 6vh;
+    border-radius: 0.8vw;
+    font-size: 1.6vw;
+    padding-left: 2vw;
+}
+
+button {
+    width: 8vw;
+    height: 7vh;
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    cursor: pointer;
+    
+}
+
+.overallUnicode {
+    position: relative;
+}
+
+.unicodeList {
+    position: absolute;
+    right: 0;
+    margin-top: -15vh;
+
+}
+
+.unicodeList a {
+    text-decoration: none;
+    color: black;
+    margin-right: 3vw;
+}
+
+.unicodeList a {
+    background-color: yellow;
+    filter: brightness(70%);
+    padding: 0.7rem;
+    border-radius: 1vw;
+}
+.unicodeList a:hover {
+    filter: brightness(100%);
+   
+}

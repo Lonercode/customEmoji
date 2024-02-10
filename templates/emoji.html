@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "../resources/css/style.css"/>
+    <title>Custom Emojis</title>
+</head>
+<body>
+    <div class = "overallUnicode">
+        <div class = "unicodeList">
+    <a href = "https://unicode.org/emoji/charts/full-emoji-list.html" target="_blank">
+        Complete Unicode List
+    </a>
+    </div>
+    </div>
+    <div class = "bwody">
+    <h3> Custom Emojis</h3>
+    <p>Type in the unicode character/combination, copy and paste where you need to paste. <br>
+    (Type "U+200D" to link emojis)</p>
+    <form method = post onsubmit="return false">
+        <label> Unicode: </label>
+        <input id = "typed"/>
+        <button type ="button" onclick="convert()"><b>Get Emoji</b></button>
+    </form>
+    <div><p class = "result" id = "result"></p></div>
+    </div>
+    
+    <script src = "../resources/js/func.js"></script>
+</body>
+</html>
